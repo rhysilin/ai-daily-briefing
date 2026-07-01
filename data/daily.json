@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-01",
+  "title": "AI 创业资讯早报",
+  "subtitle": "面向小团队、独立开发者和 AI 创业者的高密度信息筛选",
+  "summary": "今日示例版已部署。后续 cron 会把实时检索到的内容写入这里并自动发布到 Vercel。",
+  "sections": [
+    {
+      "name": "创业/产品",
+      "items": [
+        {
+          "title": "日报网站部署完成",
+          "summary": "这是一个移动端友好的日报展示页，用于替代微信长文本。后续可以由定时任务每日更新内容。",
+          "why": "小团队可以快速浏览重点，只在需要时点开来源深入阅读。",
+          "url": "https://vercel.com/",
+          "tag": "部署"
+        }
+      ]
+    },
+    {
+      "name": "开源项目",
+      "items": [
+        {
+          "title": "预留开源项目栏目",
+          "summary": "后续 cron 会从 GitHub Trending、Hacker News、Product Hunt 等来源筛选值得关注的项目。",
+          "why": "方便把可落地的工具和框架沉淀成每日清单。",
+          "url": "https://github.com/trending",
+          "tag": "GitHub"
+        }
+      ]
+    },
+    {
+      "name": "学习资源",
+      "items": [
+        {
+          "title": "预留学习资源栏目",
+          "summary": "后续会展示教程、论文解读、实践案例等内容。",
+          "why": "帮助小团队快速判断今天值得学什么、试什么。",
+          "url": "https://news.ycombinator.com/",
+          "tag": "学习"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    "把微信长日报改为：简短摘要 + 网页链接。",
+    "让 cron 每日生成 data/daily.json 并推送到 GitHub。",
+    "由 Vercel 自动部署，形成可分享的历史日报页面。"
+  ]
+}
