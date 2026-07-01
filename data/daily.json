@@ -1,4 +1,0 @@
-{
-  "deprecated": true,
-  "note": "日报内容已迁移到 data/reports.json；保留此文件仅为兼容旧脚本。"
-}
