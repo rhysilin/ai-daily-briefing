@@ -140,6 +140,29 @@ blockquote { margin: 0; padding: 24px 26px; border-left: 6px solid var(--accent-
 .lesson-row h3 { margin: 0 0 8px; font-size: 22px; line-height: 1.25; letter-spacing: -.025em; }
 .lesson-row p { margin: 0 0 10px; color: #403b34; line-height: 1.7; }
 .lesson-row small { color: var(--muted); font-weight: 850; }
+.inline-back { justify-self: start; font-size: 13px; }
+.markdown-body { border: 1px solid var(--line); background: rgba(251,247,239,.78); padding: clamp(24px, 4vw, 42px); color: #222; }
+.markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5 { margin: 34px 0 14px; line-height: 1.22; letter-spacing: -.035em; }
+.markdown-body h2:first-child, .markdown-body h3:first-child { margin-top: 0; }
+.markdown-body h2 { font-size: clamp(30px, 4vw, 44px); border-bottom: 2px solid var(--line); padding-bottom: 14px; }
+.markdown-body h3 { font-size: clamp(24px, 3vw, 32px); }
+.markdown-body h4 { font-size: 22px; }
+.markdown-body p, .markdown-body li { font-size: 18px; line-height: 2.02; color: #27231f; }
+.markdown-body p { margin: 0 0 18px; }
+.markdown-body ul, .markdown-body ol { margin: 0 0 22px; padding-left: 28px; }
+.markdown-body li { margin: 8px 0; }
+.markdown-body strong { font-weight: 950; }
+.markdown-body a { color: var(--blue); font-weight: 850; text-decoration: underline; text-underline-offset: 3px; }
+.markdown-body code { padding: 2px 6px; border: 1px solid var(--hairline); background: #fffaf1; border-radius: 6px; font-size: .92em; }
+.markdown-code { overflow-x: auto; margin: 24px 0; padding: 18px; border: 1px solid var(--line); background: #111; color: #f8f1e7; line-height: 1.7; }
+.markdown-code code { padding: 0; border: 0; background: transparent; color: inherit; }
+.markdown-body blockquote { margin: 22px 0; font-size: clamp(19px, 2.2vw, 26px); }
+.lesson-navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.lesson-navigation a { display: grid; gap: 8px; padding: 18px; border: 1px solid var(--line); background: var(--paper-soft); }
+.lesson-navigation a:hover { background: var(--accent); }
+.lesson-navigation a:last-child { text-align: right; }
+.lesson-navigation span { color: var(--muted); font-size: 12px; font-weight: 950; letter-spacing: .08em; text-transform: uppercase; }
+.lesson-navigation strong { font-size: 18px; line-height: 1.35; }
 
 @media (max-width: 920px) {
   .masthead { grid-template-columns: 1fr auto; position: relative; top: auto; }
@@ -159,7 +182,7 @@ blockquote { margin: 0; padding: 24px 26px; border-left: 6px solid var(--accent-
   .hero-copy, .course-index-hero, .empty-state { box-shadow: 5px 5px 0 var(--line); padding: 26px 22px; }
   .hero-copy h1 { font-size: clamp(38px, 12vw, 58px); line-height: 1.05; letter-spacing: -.035em; }
   .hero-copy p { font-size: 16px; line-height: 1.78; }
-  .hero-ledger, .feed-list, .source-list, .topic-grid, .course-list, .outcome-grid { grid-template-columns: 1fr; }
+  .hero-ledger, .feed-list, .source-list, .topic-grid, .course-list, .outcome-grid, .lesson-navigation { grid-template-columns: 1fr; }
   .hero-ledger div { padding: 18px; }
   .lead-story { min-height: 340px; padding: 28px 24px; }
   .lead-story h2 { font-size: clamp(34px, 10vw, 48px); line-height: 1.08; letter-spacing: -.035em; }

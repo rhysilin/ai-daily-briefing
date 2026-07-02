@@ -56,15 +56,15 @@ export default async function CoursePage({ params }) {
             <h2>课程目录</h2>
             <div className="lesson-list">
               {course.lessons.map((lesson, index) => (
-                <a href={lesson.sourceUrl} target="_blank" rel="noreferrer" className="lesson-row" key={lesson.id}>
+                <Link href={`/courses/${course.slug}/${lesson.id}`} className="lesson-row" key={lesson.id}>
                   <span>{String(index + 1).padStart(2, '0')}</span>
                   <div>
                     <h3>{lesson.title}</h3>
                     <p>{lesson.summary}</p>
-                    <small>{lesson.duration} · 查看原文</small>
+                    <small>{lesson.duration} · 在 AI 学院阅读正文</small>
                   </div>
-                  <ExternalLink size={16} />
-                </a>
+                  <BookOpen size={16} />
+                </Link>
               ))}
             </div>
           </section>
