@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "ai-beginner-intro",
+    "title": "AI 入门第一课：走进人工智能世界",
+    "subtitle": "从“什么是 AI”到应用场景，建立普通人也能理解的 AI 全局认知。",
+    "description": "基于 yeasy/ai_beginner_guide 的《第一章 走进人工智能世界》整理，适合作为 AI 学院的第一门专题课程。",
+    "level": "入门",
+    "status": "published",
+    "category": "AI 基础",
+    "cover": "AI Beginner Guide",
+    "source": {
+      "title": "yeasy/ai_beginner_guide - 01_ai_intro",
+      "url": "https://github.com/yeasy/ai_beginner_guide/tree/main/01_ai_intro"
+    },
+    "outcomes": [
+      "理解 AI 与传统软件的核心区别",
+      "知道 AI 发展中的关键历史节点与两次寒冬",
+      "区分弱人工智能、强人工智能与生成式 AI",
+      "能识别生活和工作中的典型 AI 应用场景"
+    ],
+    "lessons": [
+      {
+        "id": "what-is-ai",
+        "title": "1.1 那个永远认不出猫的超级计算机",
+        "summary": "以前是教电脑“怎么做”，现在是给电脑“看例子”。这一节用“认猫悖论”解释 AI 为什么擅长处理规则模糊的问题。",
+        "duration": "18 分钟",
+        "sourceUrl": "https://github.com/yeasy/ai_beginner_guide/blob/main/01_ai_intro/1.1_what_is_ai.md"
+      },
+      {
+        "id": "ai-history",
+        "title": "1.2 达特茅斯的夏天与漫长的寒冬",
+        "summary": "回顾 AI 从 1956 年达特茅斯会议到 ChatGPT 时代的关键起落，理解算法、算力与数据三要素。",
+        "duration": "20 分钟",
+        "sourceUrl": "https://github.com/yeasy/ai_beginner_guide/blob/main/01_ai_intro/1.2_ai_history.md"
+      },
+      {
+        "id": "ai-types",
+        "title": "1.3 为什么贾维斯还不够聪明？",
+        "summary": "理解弱 AI、强 AI、AGI、生成式 AI 的区别，建立判断 AI 能力边界的基本框架。",
+        "duration": "18 分钟",
+        "sourceUrl": "https://github.com/yeasy/ai_beginner_guide/blob/main/01_ai_intro/1.3_ai_types.md"
+      },
+      {
+        "id": "ai-applications",
+        "title": "1.4 消失的收银员与看不见的算法",
+        "summary": "从推荐、导航、支付、风控等日常场景理解 AI 如何“隐身”到社会运转中。",
+        "duration": "16 分钟",
+        "sourceUrl": "https://github.com/yeasy/ai_beginner_guide/blob/main/01_ai_intro/1.4_ai_applications.md"
+      }
+    ],
+    "summary": "这门课帮助零基础读者建立 AI 的第一层认知：AI 不是简单的计算器，而是一类通过数据学习模式、降低认知成本的技术系统。学完后，读者可以更清晰地理解大模型、智能体、AI 工具和 AI 创业机会背后的共同逻辑。"
+  }
+]
